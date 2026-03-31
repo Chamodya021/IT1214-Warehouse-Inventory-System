@@ -23,6 +23,10 @@ This is a simple Warehouse Inventory Management System developed using Java and 
    java Warehouse
 
 ## Sample Output
+C:\Users\USER\Desktop>javac Warehouse.java
+
+C:\Users\USER\Desktop>java Warehouse
+
 --- Warehouse Inventory System ---
 1. Add Item
 2. Remove Item
@@ -31,14 +35,20 @@ This is a simple Warehouse Inventory Management System developed using Java and 
 5. Search by Name
 6. Display All Items
 0. Exit
+Enter choice: 8
+Invalid choice!
 
+--- Warehouse Inventory System ---
+1. Add Item
+2. Remove Item
+3. Update Quantity
+4. Search by ID
+5. Search by Name
+6. Display All Items
+0. Exit
 Enter choice: 1
-Enter ID: I001
+Enter ID: IT102
 Enter Name: Laptop
-Enter Quantity: 10
-Enter Price: 1500
-
+Enter Quantity: 100
+Enter Price: 15000
 Item added successfully!
-
-Enter choice: 6
-ID: I001, Name: Laptop, Quantity: 10, Price: $1500.0
